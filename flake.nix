@@ -20,7 +20,7 @@
           # };
           default = ondsel;
 
-          ondsel = pkgs.libsForQt5.callPackage ./odsel.nix {
+          ondsel = pkgs.libsForQt5.callPackage ./ondsel.nix {
             boost = python3Packages.boost;
             inherit (python3Packages)
               gitpython
